@@ -49,6 +49,9 @@ develop
 
     *    - Type
          - Change
+         
+    *    - |improved|
+         - Upgrade guava to 20.0 and remove use of ``HostAndPort.getHostText()`` which has been deprecated.
 
     *    - |new| |improved| |metrics| |logs|
          - Sweep metrics were reworked. Sweep now exposes metrics indicating the total number of cells examined, cells deleted, time spent sweeping, and time elapsed since sweep started on the current table that are updated after each iteration of sweep and separate metrics that are updated after each table is fully swept.
